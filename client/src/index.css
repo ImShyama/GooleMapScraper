@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Global non-Tailwind overrides (optional) */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

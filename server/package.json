@@ -1,0 +1,24 @@
+{
+  "name": "googlemapscraper-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.3.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.7.0",
+    "p-limit": "^7.3.0",
+    "playwright": "^1.58.2",
+    "playwright-extra": "^4.3.6",
+    "playwright-extra-plugin-stealth": "^0.0.1"
+  }
+}
